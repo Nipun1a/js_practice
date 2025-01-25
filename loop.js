@@ -81,9 +81,89 @@ for (const num of array) {
 console.log(smallno);*/
 
 
-let citiespopulation = {
-    "london": 8900000
+/*let citiespopulation = {
+    "london": 8900000,
+    "New york": 8400000,
+    "Paris": 2200000,
+    "Berlin": 3500000
+    //this is a object 
+};
+let citypopulation = {};
+for (const city in citiespopulation){
+    console.log(citiespopulation[city]);
+    if (city == "berlin"){
+        break;
+    }
+    citypopulation[city] = citiespopulation[city];
+};
+console.log(citypopulation);
+*/
+
+/*let tea = ["green tea","black tea","chai","oolong tea"];
+let avatea = [];
+tea.forEach (function(element) {
+    if (element === 'chai'){
+        return;
+    }
+    avatea.push(element);
+    
+});
+console.log(avatea);
+*/
+
+/*let cities =["paris","ny","tokyo","london"];
+travecities = [];
+cities.forEach (function(element){  // it can also be write like that cities.forEach((element) =>{inside this all is same }
+    if (element === 'ny'){
+        return;
+
+    }
+    travecities.push(element);
+
+
+    
+});
+console.log(travecities);
+*/
+
+let array =[2,5,7,9];
+let mul=0;
+let douno = [];
+for (let index = 0; index < array.length; index++) {
+    if (array[index] == "7"){
+        continue;
+    }
+    else{
+        double = array[index]*2;
+        douno.push(double);
+
+    }
+
+    
+} 
+console.log(douno);
+
+let tea = ["green tea","black tea","jasmine tea","chai","oolong tea"];
+let shortteas = [];
+
+for (const element of tea) {
+    if (tea.length > 10){
+        break;
+    }
+    shortteas.push(tea);
+    
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
