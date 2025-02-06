@@ -2,3 +2,7 @@
     background-color: #1a1a1a;
     color: #fff;
 }
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
